@@ -37,7 +37,7 @@ class Graph extends Component<IProps, {}> {
     elem.setAttribute('view','y_line');
     elem.setAttribute('column-pivots', '["stock"]');
     elem.setAttribute('row-pivots', '["timestamp"]');
-    elem.setAttribute('colums', '["top_ask_price"]');
+    elem.setAttribute('columns', '["top_ask_price"]');
     elem.setAttribute('aggregates',`
     {"stock":"district-count",
     "top-ask-price":"avg",
